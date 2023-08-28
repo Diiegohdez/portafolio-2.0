@@ -26,7 +26,9 @@ const Abouts = () => {
         transition={{ type: "easeIn", duration: .60, delay: 1 * .50 }} className='abouts-redes'>
         <a href="https://www.linkedin.com/in/diiego-hdez/" target="_blank" className='abouts-ico1'><i class="fa-brands fa-linkedin fa-lg"></i></a>
         <a href="https://github.com/Diiegohdez" target="_blank" className='abouts-ico2'><i class="fa-brands fa-github fa-lg"></i></a>
-        <button className='button-cv'> Descargar CV</button>
+        <a className='button-cv' href="./Diego_HM.pdf" download>
+          {''}
+          Descargar CV</a>
       </motion.div>
     </div>
   )

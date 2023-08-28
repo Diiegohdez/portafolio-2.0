@@ -57,6 +57,10 @@
     font-size: 15px;
     font-weight: 500;
     cursor: pointer;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
     font-family: 'Righteous', cursive;
 }
 
