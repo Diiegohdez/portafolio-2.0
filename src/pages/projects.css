@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+.proyects{
+    width: 100%;
+    height: 105vh;
+}
+
+.proyects-title{
+    position: absolute;
+    color: aqua;
+    text-shadow: 0 4px 16px rgba(0, 255, 255, 0.4);
+    margin: 70px 0px 0px 520px;
+    font-size: 25px;
+    font-family: 'Righteous', cursive;
+}
+
+.proyect-container{
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    margin-top: 150px;
+    margin-left: 300px;
+}
+
+.proyect-item img{
+    width: 300px;
+    height: 160px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    z-index: 10;
+    box-shadow: -1px -8px 20px rgba(0, 255, 255, 0.1);
+    transition: 1.3s ease-in-out;
+}
+
+.proyect-item:hover img{
+    transform: translatey(-52px);
+    transition: 1.3s ease-in-out;
+    
+}
+
+.proyect-item{
+    width: 299.9px;
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #304152;
+    margin: 35px;
+    border-radius: 8px;
+    box-shadow: 0 4px 16px rgba(0, 255, 255, 0.3);
+    font-family: 'Patrick Hand', cursive;
+}
+
+.proyect-item h1{
+    font-size: 19px;
+    color: aqua;
+    text-shadow: 0 4px 16px rgba(0, 255, 255, 0.5);
+}
+
+.proyect-ico{
+    position: absolute;
+    display: flex;
+    margin:  114px 0px 0px 20px;
+    font-size: 20px;
+    z-index: 9;
+    gap: 25px;
+}
+
+
+.proyect-ico p{
+    font-size: 15px;
+    margin-left: -8px;
+    text-shadow: 2px 2px 3px rgb(0, 0, 0.1);
+}
+
+.proyect-ico .demo-p{
+    margin-left: -14px;
+}
+
+.proyect-ico2:hover{
+    filter: drop-shadow(-2px 2px 15px rgba(0, 0, 0, 1.0));
+}
+
+.proyect-ico2 i{
+    color: black;
+}
+
+.proyect-ico2 p{
+    color: black;
+    font-weight: 600;
+}
+
+.proyect-ico1 i{
+    color: white;
+}
+
+.proyect-ico1 p{
+    color: white;
+    
+}
+
+.proyect-ico1:hover{
+    filter: drop-shadow(-2px 2px 15px rgba(255, 255, 255, 0.8));
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .proyects{
+        height: 155vh;
+    }
+
+    .proyects-title{
+        margin: 70px 0px 0px 45px;
+        font-size: 20px;
+    }
+
+    .proyect-container{
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 140px;
+        margin-left: -15px;
+    }
+}
