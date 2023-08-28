@@ -72,18 +72,18 @@
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     .abouts-title {
-        margin: 100px 0px 0px 60px;
+        margin: 100px 0px 0px 90px;
         font-size: 20px;
     }
 
     .abouts-text {
-        margin: 180px 0px 0px 30px;
+        margin: 180px 0px 0px 62px;
         width: 270px;
         height: 500px;
         font-size: 17px;
     }
 
     .abouts-redes {
-        margin: 480px 0px 0px 65px;
+        margin: 480px 0px 0px 95px;
     }
 }
