@@ -19,7 +19,8 @@ const Contact = () => {
     };
 
   return (
-    <div className='contact' id='section5'>
+    <div id='section5'>
+      <div className='contact' >
       <motion.div viewport={{ once: false }}
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -40,6 +41,7 @@ const Contact = () => {
         <button type="submit" value="Send" >Enviar</button>
       </form>
       </motion.div>
+      </div>
     </div>
   );
 };

@@ -1,0 +1,124 @@
+@keyframes animate {
+    0% {
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 0;
+    }
+
+    100% {
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+        border-radius: 50%;
+    }
+}
+
+.background {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    background: #212f3d;
+    overflow: hidden;
+}
+
+.background li {
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    animation: animate 45s linear infinite;
+}
+
+.background li:nth-child(0) {
+    left: 64%;
+    width: 61px;
+    height: 61px;
+    bottom: -61px;
+    animation-delay: 1s;
+}
+
+.background li:nth-child(1) {
+    left: 51%;
+    width: 53px;
+    height: 53px;
+    bottom: -53px;
+    animation-delay: 5s;
+}
+
+.background li:nth-child(2) {
+    left: 81%;
+    width: 37px;
+    height: 37px;
+    bottom: -37px;
+    animation-delay: 5s;
+}
+
+.background li:nth-child(3) {
+    left: 14%;
+    width: 28px;
+    height: 28px;
+    bottom: -28px;
+    animation-delay: 1s;
+}
+
+.background li:nth-child(4) {
+    left: 2%;
+    width: 25px;
+    height: 25px;
+    bottom: -25px;
+    animation-delay: 11s;
+}
+
+.background li:nth-child(5) {
+    left: 40%;
+    width: 49px;
+    height: 49px;
+    bottom: -49px;
+    animation-delay: 19s;
+}
+
+.background li:nth-child(6) {
+    left: 32%;
+    width: 67px;
+    height: 67px;
+    bottom: -67px;
+    animation-delay: 13s;
+}
+
+.background li:nth-child(7) {
+    left: 28%;
+    width: 48px;
+    height: 48px;
+    bottom: -48px;
+    animation-delay: 14s;
+}
+
+.background li:nth-child(8) {
+    left: 55%;
+    width: 83px;
+    height: 83px;
+    bottom: -83px;
+    animation-delay: 21s;
+}
+
+.background li:nth-child(9) {
+    left: 68%;
+    width: 30px;
+    height: 30px;
+    bottom: -30px;
+    animation-delay: 3s;
+}
+
+
+@media only screen and (max-width: 370px) {
+    .background {
+        width: 100vw;
+        height: 95vh;
+
+    }
+}

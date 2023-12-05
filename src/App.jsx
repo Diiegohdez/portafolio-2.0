@@ -5,27 +5,15 @@ import Contact from './pages/Contact';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
 import Skill from './pages/Skill';
+import BackgroundPage from './components/BackgroundPage';
 
 function App() {
 
 
   return (
     <>
-      <>
-        <ul class="background">
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ul>
-      </>
       <Navbar />
+      <BackgroundPage />
       <Home />
       <Abouts />
       <Skill />

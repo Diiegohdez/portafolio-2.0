@@ -5,7 +5,8 @@ import { motion } from "framer-motion";
 const Abouts = () => {
 
   return (
-    <div className='abouts' id="section2" >
+    <div  id="section2" >
+      <div className='abouts'>
       <motion.div viewport={{ once: false }}
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -30,6 +31,7 @@ const Abouts = () => {
           {''}
           Descargar CV</a>
       </motion.div>
+      </div>
     </div>
   )
 }
